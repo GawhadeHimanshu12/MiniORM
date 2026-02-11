@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.miniorm.MiniOrmTest" time="0.739" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Projects For Resume\MiniORM\MiniORM\target\test-classes;D:\Projects For Resume\MiniORM\MiniORM\target\classes;C:\Users\gawha\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\gawha\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\gawha\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\gawha\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\gawha\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\gawha\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\gawha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\gawha\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gawha\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\gawha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\gawha\AppData\Local\Temp\surefire3836422486072602554\surefirebooter-20260212033312661_3.jar C:\Users\gawha\AppData\Local\Temp\surefire3836422486072602554 2026-02-12T03-33-12_524-jvmRun1 surefire-20260212033312661_1tmp surefire_0-20260212033312661_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Projects For Resume\MiniORM\MiniORM\target\test-classes;D:\Projects For Resume\MiniORM\MiniORM\target\classes;C:\Users\gawha\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\gawha\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\gawha\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\gawha\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\gawha\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\gawha\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\gawha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\gawha\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gawha\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\gawha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="test" value="com.miniorm.MiniOrmTest"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gawha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Projects For Resume\MiniORM\MiniORM"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gawha\AppData\Local\Temp\surefire3836422486072602554\surefirebooter-20260212033312661_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="gawha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Users\gawha\.vscode\extensions\oracle.oracle-java-25.0.1\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\gawha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\gawha\AppData\Local\Temp\"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="D:\Projects For Resume\MiniORM\MiniORM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\gawha\AppData\Local\Programs\Python\Python311;C:\Users\gawha\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\gawha\AppData\Local\Programs\Python\Python311\Scripts\;C:\Program Files\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Users\gawha\Documents\SFML-3.0.0-windows-vc17-64-bit\SFML-3.0.0\bin;C:\msys64\mingw64\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\gawha\AppData\Local\Android\Sdk\platform-tools;C:\Users\gawha\.cargo\bin;C:\Users\gawha\AppData\Local\Programs\Python\Python311;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\gawha\AppData\Local\Programs\Python\Python311;C:\Users\gawha\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\gawha\AppData\Local\Programs\Python\Python311\Scripts\;C:\Program Files\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Users\gawha\Documents\SFML-3.0.0-windows-vc17-64-bit\SFML-3.0.0\bin;C:\msys64\mingw64\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\gawha\AppData\Local\Android\Sdk\platform-tools;;C:\Users\gawha\AppData\Local\Programs\Python\Python311;C:\Users\gawha\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\gawha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\mongosh\;C:\Users\gawha\AppData\Local\PowerToys\DSCModules\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testInsertAndFind" classname="com.miniorm.MiniOrmTest" time="0.068">
+    <system-out><![CDATA[03:33:13.256 [main] DEBUG com.zaxxer.hikari.HikariConfig -- HikariPool-1 - configuration:
+03:33:13.265 [main] DEBUG com.zaxxer.hikari.HikariConfig -- allowPoolSuspension.............false
+03:33:13.266 [main] DEBUG com.zaxxer.hikari.HikariConfig -- autoCommit......................true
+03:33:13.266 [main] DEBUG com.zaxxer.hikari.HikariConfig -- catalog.........................none
+03:33:13.266 [main] DEBUG com.zaxxer.hikari.HikariConfig -- connectionInitSql...............none
+03:33:13.266 [main] DEBUG com.zaxxer.hikari.HikariConfig -- connectionTestQuery.............none
+03:33:13.267 [main] DEBUG com.zaxxer.hikari.HikariConfig -- connectionTimeout...............30000
+03:33:13.267 [main] DEBUG com.zaxxer.hikari.HikariConfig -- dataSource......................none
+03:33:13.268 [main] DEBUG com.zaxxer.hikari.HikariConfig -- dataSourceClassName.............none
+03:33:13.268 [main] DEBUG com.zaxxer.hikari.HikariConfig -- dataSourceJNDI..................none
+03:33:13.268 [main] DEBUG com.zaxxer.hikari.HikariConfig -- dataSourceProperties............{password=<masked>}
+03:33:13.268 [main] DEBUG com.zaxxer.hikari.HikariConfig -- driverClassName.................none
+03:33:13.268 [main] DEBUG com.zaxxer.hikari.HikariConfig -- exceptionOverrideClassName......none
+03:33:13.268 [main] DEBUG com.zaxxer.hikari.HikariConfig -- healthCheckProperties...........{}
+03:33:13.269 [main] DEBUG com.zaxxer.hikari.HikariConfig -- healthCheckRegistry.............none
+03:33:13.269 [main] DEBUG com.zaxxer.hikari.HikariConfig -- idleTimeout.....................600000
+03:33:13.269 [main] DEBUG com.zaxxer.hikari.HikariConfig -- initializationFailTimeout.......1
+03:33:13.269 [main] DEBUG com.zaxxer.hikari.HikariConfig -- isolateInternalQueries..........false
+03:33:13.269 [main] DEBUG com.zaxxer.hikari.HikariConfig -- jdbcUrl.........................jdbc:mysql://localhost:3306/miniorm_db
+03:33:13.269 [main] DEBUG com.zaxxer.hikari.HikariConfig -- keepaliveTime...................0
+03:33:13.269 [main] DEBUG com.zaxxer.hikari.HikariConfig -- leakDetectionThreshold..........0
+03:33:13.270 [main] DEBUG com.zaxxer.hikari.HikariConfig -- maxLifetime.....................1800000
+03:33:13.270 [main] DEBUG com.zaxxer.hikari.HikariConfig -- maximumPoolSize.................10
+03:33:13.270 [main] DEBUG com.zaxxer.hikari.HikariConfig -- metricRegistry..................none
+03:33:13.270 [main] DEBUG com.zaxxer.hikari.HikariConfig -- metricsTrackerFactory...........none
+03:33:13.271 [main] DEBUG com.zaxxer.hikari.HikariConfig -- minimumIdle.....................10
+03:33:13.271 [main] DEBUG com.zaxxer.hikari.HikariConfig -- password........................<masked>
+03:33:13.271 [main] DEBUG com.zaxxer.hikari.HikariConfig -- poolName........................"HikariPool-1"
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- readOnly........................false
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- registerMbeans..................false
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- scheduledExecutor...............none
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- schema..........................none
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- threadFactory...................internal
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- transactionIsolation............default
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- username........................"root"
+03:33:13.272 [main] DEBUG com.zaxxer.hikari.HikariConfig -- validationTimeout...............5000
+03:33:13.284 [main] INFO com.zaxxer.hikari.HikariDataSource -- HikariPool-1 - Starting...
+03:33:13.306 [main] DEBUG com.zaxxer.hikari.util.DriverDataSource -- Loaded driver with class name com.mysql.cj.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/miniorm_db
+03:33:13.666 [main] INFO com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+03:33:13.666 [main] INFO com.zaxxer.hikari.HikariDataSource -- HikariPool-1 - Start completed.
+03:33:13.756 [main] INFO com.miniorm.session.MiniSession -- Created table: users
+03:33:13.767 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+03:33:13.779 [main] INFO com.miniorm.session.MiniSession -- Created table: orders
+03:33:13.785 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4592576e
+03:33:13.786 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection -- HikariPool-1 - Executed rollback on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595 due to dirty commit state on close().
+03:33:13.787 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+TEST 1: Insert Piyush
+03:33:13.806 [main] INFO com.miniorm.session.MiniSession -- Transaction started
+03:33:13.813 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@621f9ba4
+03:33:13.816 [main] DEBUG com.miniorm.session.MiniSession -- Executing Save: INSERT INTO users (username, email) VALUES (?, ?)
+03:33:13.838 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1abb01ed
+03:33:13.839 [main] INFO com.miniorm.session.MiniSession -- Transaction committed
+03:33:13.844 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+03:33:13.845 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.849 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection -- HikariPool-1 - Executed rollback on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595 due to dirty commit state on close().
+03:33:13.850 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdate" classname="com.miniorm.MiniOrmTest" time="0.027">
+    <system-out><![CDATA[TEST 2: Update Order Amount
+03:33:13.865 [main] INFO com.miniorm.session.MiniSession -- Transaction started
+03:33:13.865 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60ce3a3b
+03:33:13.865 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.867 [main] DEBUG com.miniorm.session.MiniSession -- Executing Save: INSERT INTO orders (amount, user_id) VALUES (?, ?)
+03:33:13.873 [main] INFO com.miniorm.session.MiniSession -- Transaction committed
+03:33:13.874 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+03:33:13.874 [main] INFO com.miniorm.session.MiniSession -- Transaction started
+03:33:13.874 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM orders WHERE id = ?
+03:33:13.875 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.877 [main] DEBUG com.miniorm.session.MiniSession -- Executing Update: UPDATE orders SET amount = ?, user_id = ? WHERE id = ?
+03:33:13.881 [main] INFO com.miniorm.session.MiniSession -- Transaction committed
+03:33:13.882 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+03:33:13.883 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM orders WHERE id = ?
+03:33:13.884 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.889 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection -- HikariPool-1 - Executed rollback on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595 due to dirty commit state on close().
+03:33:13.889 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+]]></system-out>
+  </testcase>
+  <testcase name="testRelationshipMapping" classname="com.miniorm.MiniOrmTest" time="0.006">
+    <system-out><![CDATA[TEST 3: Check User inside Order
+03:33:13.893 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM orders WHERE id = ?
+03:33:13.894 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool -- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@771cc682
+03:33:13.894 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.896 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection -- HikariPool-1 - Executed rollback on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595 due to dirty commit state on close().
+03:33:13.897 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+]]></system-out>
+  </testcase>
+  <testcase name="testFirstLevelCache" classname="com.miniorm.MiniOrmTest" time="0.005">
+    <system-out><![CDATA[TEST 4: First Level Cache
+03:33:13.899 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.901 [main] DEBUG com.miniorm.session.MiniSession -- Cache Hit for User ID: 1
+03:33:13.902 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection -- HikariPool-1 - Executed rollback on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595 due to dirty commit state on close().
+03:33:13.903 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+]]></system-out>
+  </testcase>
+  <testcase name="testDelete" classname="com.miniorm.MiniOrmTest" time="0.015">
+    <system-out><![CDATA[TEST 5: Delete Operation
+03:33:13.906 [main] INFO com.miniorm.session.MiniSession -- Transaction started
+03:33:13.907 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.908 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM orders WHERE id = ?
+03:33:13.909 [main] DEBUG com.miniorm.session.MiniSession -- Cache Hit for User ID: 1
+03:33:13.910 [main] DEBUG com.miniorm.session.MiniSession -- Executing Delete: DELETE FROM orders WHERE id = ?
+03:33:13.911 [main] DEBUG com.miniorm.session.MiniSession -- Executing Delete: DELETE FROM users WHERE id = ?
+03:33:13.915 [main] INFO com.miniorm.session.MiniSession -- Transaction committed
+03:33:13.915 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+03:33:13.916 [main] DEBUG com.miniorm.session.MiniSession -- Executing Find: SELECT * FROM users WHERE id = ?
+03:33:13.918 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection -- HikariPool-1 - Executed rollback on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595 due to dirty commit state on close().
+03:33:13.919 [main] DEBUG com.zaxxer.hikari.pool.PoolBase -- HikariPool-1 - Reset (autoCommit) on connection com.mysql.cj.jdbc.ConnectionImpl@37c7595
+]]></system-out>
+  </testcase>
+</testsuite>
